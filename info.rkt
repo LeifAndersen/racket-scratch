@@ -3,7 +3,10 @@
 (define deps '("base"
                "rackunit-lib"
                "reprovide-lang"
-               "at-exp-lib"))
+               "at-exp-lib"
+               "gui-lib"
+               "pict-lib"
+               "plot-gui-lib"))
 (define build-deps '("scribble-lib" "racket-doc"))
 (define scribblings '(("scribblings/scratch.scrbl" ())))
 (define pkg-desc "Description Here")

@@ -2,7 +2,11 @@
 
 (require reprovide/reprovide)
 
-(reprovide racket
+(reprovide racket/gui
+           pict
+           plot
+           syntax/modresolve
+           syntax/location
            (for-syntax racket
                        racket/syntax
                        syntax/parse))
