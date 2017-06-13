@@ -7,6 +7,8 @@
            plot
            syntax/modresolve
            syntax/location
+           setup/dirs
+           racket/draw
            (for-syntax racket
                        racket/syntax
                        syntax/parse))
