@@ -22,6 +22,7 @@
            framework
            racket/place
            racket/async-channel
+           racket/serialize
            (for-syntax racket
                        racket/syntax
                        syntax/parse))
