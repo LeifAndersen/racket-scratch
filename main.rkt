@@ -15,6 +15,13 @@
            compiler/find-exe
            racket/runtime-path
            racket/cmdline
+           racket/system
+           (prefix-in ffi: ffi/unsafe)
+           (prefix-in ffi: ffi/cvector)
+           (prefix-in c: racket/contract)
+           framework
+           racket/place
+           racket/async-channel
            (for-syntax racket
                        racket/syntax
                        syntax/parse))
