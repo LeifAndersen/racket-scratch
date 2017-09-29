@@ -19,6 +19,7 @@
            (prefix-in ffi: ffi/unsafe)
            (prefix-in ffi: ffi/cvector)
            (prefix-in c: racket/contract)
+           data/gvector
            framework
            racket/place
            racket/async-channel
