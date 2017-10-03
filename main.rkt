@@ -24,6 +24,7 @@
            racket/place
            racket/async-channel
            racket/serialize
+           file/convertible
            (for-syntax racket
                        racket/syntax
                        syntax/parse))
