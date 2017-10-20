@@ -24,6 +24,7 @@
            racket/place
            racket/async-channel
            racket/serialize
+           racket/stxparam
            file/convertible
            (for-syntax racket
                        racket/syntax
