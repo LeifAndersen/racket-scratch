@@ -26,6 +26,7 @@
            racket/serialize
            racket/stxparam
            file/convertible
+           json
            (for-syntax racket
                        racket/syntax
                        syntax/parse))
