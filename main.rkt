@@ -27,9 +27,13 @@
            racket/stxparam
            file/convertible
            json
+           profile
            (for-syntax racket
                        racket/syntax
-                       syntax/parse))
+                       syntax/parse)
+           (for-meta 2 racket
+                     racket/syntax
+                     syntax/parse))
 
 (module* reader syntax/module-reader
   scratch
