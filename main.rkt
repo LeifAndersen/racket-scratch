@@ -28,6 +28,8 @@
            file/convertible
            json
            profile
+           racket/engine
+           syntax/stx
            (for-syntax racket
                        racket/syntax
                        syntax/parse)
