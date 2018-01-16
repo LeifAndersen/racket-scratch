@@ -16,6 +16,7 @@
            racket/runtime-path
            racket/cmdline
            racket/system
+           racket/surrogate
            (prefix-in ffi: ffi/unsafe)
            (prefix-in ffi: ffi/cvector)
            (prefix-in c: racket/contract)
@@ -30,6 +31,7 @@
            profile
            racket/engine
            syntax/stx
+           wxme
            (for-syntax racket
                        racket/syntax
                        syntax/parse)
