@@ -9,7 +9,8 @@
                "plot-gui-lib"
                "draw-lib"
                "data-lib"
-               "profile-lib"))
+               "profile-lib"
+               "wxme-lib"))
 (define build-deps '("scribble-lib" "racket-doc"))
 (define scribblings '(("scribblings/scratch.scrbl" ())))
 (define pkg-desc "Description Here")
