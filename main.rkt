@@ -32,9 +32,13 @@
            racket/engine
            syntax/stx
            wxme
+           (except-in racket/require-transform import)
+           (prefix-in req: racket/require-transform)
            (for-syntax racket
                        racket/syntax
-                       syntax/parse)
+                       syntax/parse
+                       (except-in racket/require-transform import)
+                       (prefix-in req: racket/require-transform))
            (for-meta 2 racket
                      racket/syntax
                      syntax/parse))
