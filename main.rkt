@@ -34,11 +34,15 @@
            wxme
            (except-in racket/require-transform import)
            (prefix-in req: racket/require-transform)
+           (except-in racket/provide-transform export)
+           (prefix-in prov: racket/provide-transform)
            (for-syntax racket
                        racket/syntax
                        syntax/parse
                        (except-in racket/require-transform import)
-                       (prefix-in req: racket/require-transform))
+                       (prefix-in req: racket/require-transform)
+                       (except-in racket/provide-transform export)
+                       (prefix-in prov: racket/provide-transform))
            (for-meta 2 racket
                      racket/syntax
                      syntax/parse))
