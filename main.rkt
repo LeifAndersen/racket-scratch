@@ -3,6 +3,7 @@
 (require reprovide/reprovide)
 
 (reprovide racket/gui
+           racket/splicing
            pict
            plot
            syntax/modresolve
@@ -17,6 +18,7 @@
            racket/cmdline
            racket/system
            racket/surrogate
+           racket/enter
            (prefix-in ffi: ffi/unsafe)
            (prefix-in ffi: ffi/cvector)
            (prefix-in c: racket/contract)
@@ -39,6 +41,7 @@
            (for-syntax racket
                        racket/syntax
                        syntax/parse
+                       syntax/location
                        (except-in racket/require-transform import)
                        (prefix-in req: racket/require-transform)
                        (except-in racket/provide-transform export)
