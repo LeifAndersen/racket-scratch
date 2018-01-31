@@ -50,6 +50,9 @@
                        (prefix-in prov: racket/provide-transform))
            (for-meta 2 racket
                      racket/syntax
+                     syntax/parse)
+           (for-meta 3 racket
+                     racket/syntax
                      syntax/parse))
 
 (module* reader syntax/module-reader
