@@ -4,6 +4,7 @@
 
 (reprovide racket/gui
            racket/splicing
+           racket/sandbox
            pict
            plot
            syntax/modresolve
@@ -34,6 +35,7 @@
            racket/engine
            syntax/stx
            wxme
+           rackunit
            (except-in racket/require-transform import)
            (prefix-in req: racket/require-transform)
            (except-in racket/provide-transform export)

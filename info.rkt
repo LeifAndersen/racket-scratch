@@ -10,7 +10,8 @@
                "draw-lib"
                "data-lib"
                "profile-lib"
-               "wxme-lib"))
+               "wxme-lib"
+               "sandbox-lib"))
 (define build-deps '("scribble-lib" "racket-doc"))
 (define scribblings '(("scribblings/scratch.scrbl" ())))
 (define pkg-desc "Description Here")
