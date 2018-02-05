@@ -59,4 +59,9 @@
   scratch
   #:read read
   #:read-syntax read-syntax
-  (require scribble/reader))
+  #:info (λ (key default defproc)
+           (case key
+             [(color-lexer) scribble-lexer]
+             [else (defproc key default)]))
+  (require scribble/reader
+           syntax-color/scribble-lexer))
