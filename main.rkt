@@ -20,6 +20,7 @@
            racket/system
            racket/surrogate
            racket/enter
+           syntax/to-string
            (prefix-in ffi: ffi/unsafe)
            (prefix-in ffi: ffi/cvector)
            (prefix-in c: racket/contract)
@@ -44,6 +45,7 @@
                        racket/syntax
                        syntax/parse
                        syntax/location
+                       syntax/to-string
                        (except-in racket/require-transform import)
                        (prefix-in req: racket/require-transform)
                        (except-in racket/provide-transform export)
