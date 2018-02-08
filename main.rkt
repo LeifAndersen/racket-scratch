@@ -6,6 +6,7 @@
            racket/splicing
            racket/sandbox
            pict
+           (prefix-in pict: pict/code)
            plot
            syntax/modresolve
            syntax/location
@@ -14,6 +15,7 @@
            racket
            racket/syntax
            syntax/parse
+           syntax/parse/define
            compiler/find-exe
            racket/runtime-path
            racket/cmdline

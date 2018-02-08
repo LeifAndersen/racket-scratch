@@ -11,7 +11,8 @@
                "data-lib"
                "profile-lib"
                "wxme-lib"
-               "sandbox-lib"))
+               "sandbox-lib"
+               "syntax-color-lib"))
 (define build-deps '("scribble-lib" "racket-doc"))
 (define scribblings '(("scribblings/scratch.scrbl" ())))
 (define pkg-desc "Description Here")
