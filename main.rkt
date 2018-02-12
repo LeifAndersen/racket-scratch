@@ -6,6 +6,7 @@
            racket/splicing
            racket/sandbox
            pict
+           pict/balloon
            (prefix-in pict: pict/code)
            plot
            syntax/modresolve
@@ -16,6 +17,7 @@
            racket/syntax
            syntax/parse
            syntax/parse/define
+           syntax/modcollapse
            compiler/find-exe
            racket/runtime-path
            racket/cmdline
@@ -48,6 +50,7 @@
                        syntax/parse
                        syntax/location
                        syntax/to-string
+                       syntax/modcollapse
                        (except-in racket/require-transform import)
                        (prefix-in req: racket/require-transform)
                        (except-in racket/provide-transform export)
@@ -56,6 +59,9 @@
                      racket/syntax
                      syntax/parse)
            (for-meta 3 racket
+                     racket/syntax
+                     syntax/parse)
+           (for-meta 4 racket
                      racket/syntax
                      syntax/parse))
 
