@@ -3,7 +3,6 @@
 (require reprovide/reprovide
          "private/reader-submod.rkt")
 
-(reprovide "no-gui.rkt"
-           racket/gui)
+(reprovide "no-gui.rkt")
 
 (make-reader-submod)
