@@ -40,6 +40,8 @@
            racket/engine
            syntax/stx
            wxme
+           pkg/path
+           pkg/lib
            rackunit
            (except-in racket/require-transform import)
            (prefix-in req: racket/require-transform)
