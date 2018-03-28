@@ -12,7 +12,9 @@
                "profile-lib"
                "wxme-lib"
                "sandbox-lib"
-               "syntax-color-lib"))
+               "syntax-color-lib"
+               "zo-lib"
+               "with-cache"))
 (define build-deps '("scribble-lib" "racket-doc"))
 (define scribblings '(("scribblings/scratch.scrbl" ())))
 (define pkg-desc "Description Here")

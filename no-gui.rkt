@@ -19,6 +19,7 @@
            syntax/parse/define
            syntax/modcollapse
            compiler/find-exe
+           (prefix-in zo: compiler/zo-structs)
            racket/runtime-path
            racket/cmdline
            racket/system
@@ -38,11 +39,14 @@
            json
            profile
            racket/engine
+           racket/fasl
            syntax/stx
            wxme
            pkg/path
            pkg/lib
            rackunit
+           racket/struct-info
+           ;with-cache
            (except-in racket/require-transform import)
            (prefix-in req: racket/require-transform)
            (except-in racket/provide-transform export)
