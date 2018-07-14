@@ -57,6 +57,7 @@
                        syntax/location
                        syntax/to-string
                        syntax/modcollapse
+                       syntax/modresolve
                        (except-in racket/require-transform import)
                        (prefix-in req: racket/require-transform)
                        (except-in racket/provide-transform export)
