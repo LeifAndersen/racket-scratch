@@ -8,9 +8,9 @@
            pict
            pict/balloon
            (prefix-in pict: pict/code)
-           plot
            syntax/modresolve
            syntax/location
+           syntax/modread
            setup/dirs
            racket/draw
            racket
@@ -30,7 +30,7 @@
            (prefix-in ffi: ffi/cvector)
            (prefix-in c: racket/contract)
            data/gvector
-           framework
+           rackunit
            racket/place
            racket/async-channel
            racket/serialize
@@ -41,12 +41,7 @@
            racket/engine
            racket/fasl
            syntax/stx
-           wxme
-           pkg/path
-           pkg/lib
-           rackunit
            racket/struct-info
-           ;with-cache
            (except-in racket/require-transform import)
            (prefix-in req: racket/require-transform)
            (except-in racket/provide-transform export)
