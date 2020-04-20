@@ -5,6 +5,9 @@
 
 (reprovide racket/splicing
            racket/sandbox
+           racket/list
+           racket/set
+           racket/list
            pict
            pict/balloon
            (prefix-in pict: pict/code)
